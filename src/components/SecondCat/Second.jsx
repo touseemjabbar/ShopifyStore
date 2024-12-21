@@ -3,11 +3,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import Video2Background from '../seconVideo';
-import First1video from '../categoryvides/first1video';
-import ImageVideoContainer from '../categoryvides/second2video';
+import First1video from '../categoryvides/FirstVideo';
+import ImageVideoContainer from '../categoryvides/SecondVideo';
 import FeatureSection from '../ThirdCat/ThirdCat';
 import FourthCat from '../FourthCat/FourthCat';
 import Footer from '../Footer/Footer';
+import FirstVideo from '../categoryvides/FirstVideo';
+import FirstCatVideo from '../categoryvides/FirstVideo';
 
 
 const SecondCat = () => {
@@ -227,10 +229,9 @@ const SecondCat = () => {
                     </div>
                 </div>
             </div>
-            {/* second */}
             <div className='mt-10'>
 
-            <First1video/>
+            <FirstCatVideo/>
             <ImageVideoContainer/>
             <FeatureSection/>
             <FourthCat/>

@@ -26,7 +26,7 @@ const FourthCat = () => {
           <div className="flex items-start">
             <span className="text-green-500 text-[20px] font-bold">01</span>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Add your first product</p>
+              <p className="text-lg font-semibold cursor-pointer">Add your first product</p>
               <hr className="border-white mt-2" />
             </div>
           </div>
@@ -34,7 +34,7 @@ const FourthCat = () => {
           <div className="flex items-start">
             <span className="text-green-500 text-[20px] font-bold">02</span>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Customize your store</p>
+              <p className="text-lg font-semibold cursor-pointer">Customize your store</p>
               <hr className="border-white mt-2" />
             </div>
           </div>
@@ -42,7 +42,7 @@ const FourthCat = () => {
           <div className="flex items-start">
             <span className="text-green-500 text-[20px] font-bold">03</span>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Set up payments</p>
+              <p className="text-lg font-semibold cursor-pointer">Set up payments</p>
               <hr className="border-white mt-2" />
             </div>
           </div>

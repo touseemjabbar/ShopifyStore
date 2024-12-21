@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import VideoBackground from './components/FirstVideo'
-import SecondCat from './components/SecondCat'
+import VideoBackground from './components/FirstVideo/VideoBackground'
+import SecondCat from './components/SecondCat/Second'
+
 
 const App = () => {
   return (
@@ -9,7 +10,6 @@ const App = () => {
       <Navbar/>
       <VideoBackground/>
       <SecondCat/>
-   
 
     </div>
   )
